@@ -349,6 +349,12 @@ header {
 	border-color: #00a4b9;
 }
 
+/* Intro Paragraph Style */
+.intro_paragraph {
+	text-align:center;
+	color: white;
+}
+
 /* Banner Style */
 .banner {
 	background-image: url(../images/banner-bg.jpg);
@@ -768,6 +774,7 @@ footer ul li a {
 	font-size: 14px;
 	font-weight: 300;
 	transition: all 0.3s;
+	text-aligh: center;
 }
 footer ul li a:hover {
 	color: #fff;
