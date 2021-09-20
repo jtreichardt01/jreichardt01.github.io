@@ -6,15 +6,66 @@ https://templatemo.com/tm-541-host-cloud
 
 */
 
+.projects {
+	background-color: #0c5460;
+}
+.project_1 {
+	background-color: #FFFFFF;
+}
+.project_1 h2 {
+	text-align: center;
+	font-size: 50px;
+}
+.project_1 aside{
+	width: 25%;
+	float:left;
+	height: 700px;
+}
+.project_1 aside h2{
+	font-size: 32px;
+	text-align: center;
+	margin-top: 50px;
+}
+.project_1 main {
+	position: relative;
+	top: -50px;
+	margin: 100px;
+	background-color: transparent!important;
+	outline: none;
+	color: #1e1e1e!important;
+	width:70%;
+	height: 600px;
+}
+.project_1 main p{
+	margin-bottom: 0px;
+	font-size: 14px;
+	color: #6a6a6a;
+	line-height: 25px;
+	text-indent: 10px;
+}
+.project_1 main h2 {
+	font-size: 32px;
+	text-align: center;
+}
+
 body {
 	font-family: 'Roboto', sans-serif;
 	transition: all 0.5s;
+}
+main {
+	background-color: transparent!important;
+	outline: none;
+	color: #1e1e1e!important;
+}
+main h1{
+
 }
 p {
 	margin-bottom: 0px;
 	font-size: 14px;
 	color: #6a6a6a;
 	line-height: 25px;
+	text-indent: 10px;
 }
 a {
 	text-decoration: none!important;
@@ -63,6 +114,7 @@ a.gradient-button:hover {
 }
 .section-heading {
 	margin-bottom: 80px;
+	align-content: center;
 }
 .section-heading span {
 	color: #00bcd4;
@@ -79,6 +131,15 @@ a.gradient-button:hover {
 	letter-spacing: 0.5px;
 	margin-top: 10px;
 	margin-bottom: 15px;
+	text-align: center;
+}
+.section-heading aside{
+	width: 25%;
+	float:left;
+}
+.section-heading main{
+	width:75%;
+	float:right;
 }
 .section-heading p {
 	font-size: 15px;
@@ -830,7 +891,7 @@ footer .sub-footer a {
   margin-right: 0px;
 }
 #tabs ul li a {
-  font-size: 18px;
+  font-size: 16px;
   color: #1e1e1e;
   letter-spacing: 0.5px;
   font-weight: 700;
@@ -858,6 +919,7 @@ footer .sub-footer a {
   color: #7a7a7a;
   margin-top: 30px;
   margin-bottom: 0px;
+	text-indent: 20px;
 }
 
 
